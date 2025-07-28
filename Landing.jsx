@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 export default function Landing() {
   const { t } = useTranslation();
 
-  // Example static news data, now using t() for translation keys
+  
   const newsFeed = [
     {
       title: t("🚨 New PayPal Phishing Campaign Targets Users"),
