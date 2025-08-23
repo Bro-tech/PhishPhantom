@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 
 function detectScam(emailText) {
+  
   const redFlags = [];
+  
   const lower = emailText.toLowerCase();
 
   // 1. Urgent language
