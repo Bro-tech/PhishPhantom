@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 function detectScam(emailText) {
   
   const redFlags = [];
