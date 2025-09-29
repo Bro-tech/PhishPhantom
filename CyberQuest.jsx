@@ -31,7 +31,6 @@ const challenges = [
     explanation: "Check for typos and subdomains. Only the official domain is safe.",
   },
 ];
-
 const badges = [
   { threshold: 1, label: "Beginner" },
   { threshold: 2, label: "Cyber Scout" },
