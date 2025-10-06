@@ -31,6 +31,7 @@ const challenges = [
     explanation: "Check for typos and subdomains. Only the official domain is safe.",
   },
 ];
+
 const badges = [
   { threshold: 1, label: "Beginner" },
   { threshold: 2, label: "Cyber Scout" },
@@ -78,15 +79,17 @@ export default function CyberQuest() {
         backdropFilter: "blur(8px)",
         WebkitBackdropFilter: "blur(8px)",
         border: "1px solid #e0eafc",
-      }}
-    >
+      }} >
+      
       <h2 className="text-2xl font-bold mb-4 text-blue-700 dark:text-cyan-300 flex items-center gap-2">
         🕵️ Cyber Quests
       </h2>
+      
       {!showResult ? (
         <>
+          
           <div className="mb-4">
-            <span className="font-semibold text-lg">{challenges[current].question}</span>
+          <span className="font-semibold text-lg">{challenges[current].question}</span>
           </div>
           <div className="flex flex-col gap-3">
             {challenges[current].options.map((opt, idx) => {
